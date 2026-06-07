@@ -481,3 +481,22 @@ body {
 .feature-card {
   bottom: 32px;
 }
+/* 카드 겹침 해결 */
+.hero {
+  min-height: 920px !important;
+}
+
+.hero-content {
+  padding-top: 120px !important;
+}
+
+.hero-buttons {
+  margin-top: 45px !important;
+  position: relative;
+  z-index: 10;
+}
+
+.feature-card {
+  bottom: 55px !important;
+  z-index: 3 !important;
+}

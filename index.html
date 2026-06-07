@@ -1,93 +1,131 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IGC Bridge</title>
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="page-frame">
-    <header class="navbar">
-      <div class="logo">
-        <div class="logo-icon">⌒</div>
-        <span>IGC Bridge</span>
+
+<div class="page-frame">
+
+  <header class="navbar">
+
+    <div class="logo">
+      <div class="logo-icon">⌒</div>
+      <span>IGC Bridge</span>
+    </div>
+
+    <nav class="nav-menu">
+      <a href="index.html">홈</a>
+      <a href="schools.html">학교정보</a>
+      <a href="major.html">전공가이드</a>
+      <a href="career.html">진로 · 취업</a>
+      <a href="community.html">커뮤니티</a>
+      <a href="news.html">뉴스 · 자료</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="search.html" class="search-btn">⌕</a>
+      <a href="login.html" class="login-btn">로그인</a>
+      <a href="signup.html" class="signup-btn">회원가입</a>
+    </div>
+
+  </header>
+
+  <main class="hero">
+
+    <div class="hero-bg"></div>
+
+    <section class="hero-content">
+
+      <h1>
+        IGC의 모든 정보,<br>
+        하나로 <span>연결하는 다리</span>
+      </h1>
+
+      <p>
+        학교, 전공, 진로 정보를 신뢰 기반으로 통합 제공하여<br>
+        당신의 미래를 연결합니다.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="schools.html" class="primary-btn">
+          IGC 학교 둘러보기
+        </a>
+
+        <a href="major.html" class="secondary-btn">
+          전공 가이드 바로가기
+        </a>
       </div>
 
-      <nav class="nav-menu">
-        <a href="#">홈</a>
-        <a href="#">학교정보</a>
-        <a href="#">전공가이드</a>
-        <a href="#">진로 · 취업</a>
-        <a href="#">커뮤니티</a>
-        <a href="#">뉴스 · 자료</a>
-      </nav>
+    </section>
 
-      <div class="nav-actions">
-        <button class="search-btn" aria-label="검색">⌕</button>
-        <button class="login-btn">로그인</button>
-        <button class="signup-btn">회원가입</button>
-      </div>
-    </header>
+    <section class="feature-card">
 
-    <main class="hero">
-      <div class="hero-bg"></div>
+      <div class="feature-item">
+        <div class="feature-icon">♢</div>
 
-      <section class="hero-content">
-        <h1>
-          IGC의 모든 정보,<br />
-          하나로 <span>연결하는 다리</span>
-        </h1>
+        <h3>신뢰 기반 정보</h3>
 
         <p>
-          학교, 전공, 진로 정보를 신뢰 기반으로 통합 제공하여<br />
-          당신의 미래를 연결합니다.
+          실명 인증 및 관리로<br>
+          정확하고 신뢰할 수 있는 정보
         </p>
+      </div>
 
-        <div class="hero-buttons">
-          <a href="#" class="primary-btn">IGC 학교 둘러보기</a>
-          <a href="#" class="secondary-btn">전공 가이드 바로가기</a>
-        </div>
-      </section>
+      <div class="divider"></div>
 
-      <section class="feature-card">
-        <div class="feature-item">
-          <div class="feature-icon">♢</div>
-          <h3>신뢰 기반 정보</h3>
-          <p>실명 인증 및 관리로<br />정확하고 신뢰할 수 있는 정보</p>
-        </div>
+      <div class="feature-item">
+        <div class="feature-icon">▥</div>
 
-        <div class="divider"></div>
+        <h3>IGC 통합 정보</h3>
 
-        <div class="feature-item">
-          <div class="feature-icon">▥</div>
-          <h3>IGC 통합 정보</h3>
-          <p>여러 학교의 정보를<br />한 곳에서 비교하고 확인</p>
-        </div>
+        <p>
+          여러 학교의 정보를<br>
+          한 곳에서 비교하고 확인
+        </p>
+      </div>
 
-        <div class="divider"></div>
+      <div class="divider"></div>
 
-        <div class="feature-item">
-          <div class="feature-icon">▱</div>
-          <h3>전공 · 진로 가이드</h3>
-          <p>전공 정보부터 진로, 취업까지<br />실질적인 가이드 제공</p>
-        </div>
+      <div class="feature-item">
+        <div class="feature-icon">▱</div>
 
-        <div class="divider"></div>
+        <h3>전공 · 진로 가이드</h3>
 
-        <div class="feature-item">
-          <div class="feature-icon">♙</div>
-          <h3>커뮤니티 소통</h3>
-          <p>재학생 · 편입생 · 졸업생이<br />함께 만드는 정보 커뮤니티</p>
-        </div>
-      </section>
-    </main>
-  </div>
+        <p>
+          전공 정보부터 진로, 취업까지<br>
+          실질적인 가이드 제공
+        </p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="feature-item">
+        <div class="feature-icon">♙</div>
+
+        <h3>커뮤니티 소통</h3>
+
+        <p>
+          재학생 · 편입생 · 졸업생이<br>
+          함께 만드는 정보 커뮤니티
+        </p>
+      </div>
+
+    </section>
+
+  </main>
+
+</div>
+
 </body>
 </html>

@@ -374,3 +374,47 @@ body {
     justify-content: center;
   }
 }
+.sub-page {
+  min-height: 720px;
+  padding: 80px 70px;
+  background: #f8fafc;
+}
+
+.sub-page h1 {
+  font-size: 56px;
+  font-weight: 900;
+  color: #0f172a;
+  margin-bottom: 18px;
+}
+
+.sub-page > p {
+  font-size: 21px;
+  color: #64748b;
+  margin-bottom: 50px;
+}
+
+.sub-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.sub-card {
+  background: white;
+  border-radius: 22px;
+  padding: 36px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.sub-card h3 {
+  font-size: 26px;
+  color: #0f172a;
+  margin-bottom: 14px;
+}
+
+.sub-card p {
+  font-size: 17px;
+  color: #64748b;
+  line-height: 1.7;
+}

@@ -484,3 +484,36 @@ body {
 .feature-card {
   bottom: 32px;
 }
+/* FORCE FULL SCREEN */
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden;
+  background: #ffffff !important;
+}
+
+.page-frame {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  min-height: 100vh !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.navbar {
+  width: 100% !important;
+  border-radius: 0 !important;
+}
+
+.hero {
+  width: 100vw !important;
+  min-height: calc(100vh - 95px) !important;
+}
+
+.feature-card {
+  width: calc(100% - 120px) !important;
+}

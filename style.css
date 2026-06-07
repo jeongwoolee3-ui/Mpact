@@ -135,7 +135,7 @@ body {
 
 .hero {
   position: relative;
-  min-height: 720px;
+  min-height: 850px;
   overflow: hidden;
 }
 
@@ -189,7 +189,7 @@ body {
 }
 
 .hero-buttons {
-  margin-top: 50px;
+  margin-top: 35px;
 
   display: flex;
   gap: 18px;
@@ -242,7 +242,7 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 42px;
+  bottom: 35px;
 
   width: calc(100% - 40px);
 

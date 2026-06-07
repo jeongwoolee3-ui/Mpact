@@ -418,3 +418,69 @@ body {
   color: #64748b;
   line-height: 1.7;
 }
+/* 화면 꽉 차게 수정 */
+body {
+  padding: 0;
+  background: #eef3fa;
+}
+
+.page-frame {
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  border-radius: 0;
+}
+
+/* 로고 새 디자인 */
+.logo {
+  gap: 16px;
+}
+
+.bridge-logo {
+  position: relative;
+  width: 58px;
+  height: 38px;
+}
+
+.bridge-arc {
+  position: absolute;
+  left: 3px;
+  top: 6px;
+  width: 52px;
+  height: 24px;
+  border-top: 7px solid white;
+  border-radius: 60px 60px 0 0;
+  transform: rotate(4deg);
+}
+
+.bridge-line {
+  position: absolute;
+  left: 8px;
+  bottom: 4px;
+  width: 44px;
+  height: 4px;
+  background: white;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+/* 상단 여백 줄이기 */
+.navbar {
+  border-radius: 0;
+}
+
+/* 아이콘 크기 정리 */
+.feature-icon {
+  font-size: 42px;
+  line-height: 1;
+  margin-bottom: 18px;
+}
+
+/* 메인 화면도 더 꽉 차게 */
+.hero {
+  min-height: calc(100vh - 95px);
+}
+
+.feature-card {
+  bottom: 32px;
+}

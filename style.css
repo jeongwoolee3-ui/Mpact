@@ -154,7 +154,7 @@ body {
       rgba(255,255,255,.45) 55%,
       rgba(255,255,255,.10) 100%
     ),
-   url("hero.jpg");
+   url("/Mpact/hero.jpg");
 
   background-size: cover;
   background-position: center;
